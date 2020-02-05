@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">IFSystem</string>
+
+    <string-array name="spinnerSelect">
+        <item>Professor</item>
+        <item>Técnico Administrativo</item>
+        <item>Assistente de Aluno</item>
+    </string-array>
+
+    <string-array name="recursos">
+        <item>Chave do gabinete da sala</item>
+        <item>Cabo HDMI</item>
+        <item>Cabo VGA</item>
+        <item>Caixa de som</item>
+        <item>Extensão</item>
+        <item>DataShow</item>
+        <item>Impressão de prova extra</item>
+    </string-array>
+</resources>

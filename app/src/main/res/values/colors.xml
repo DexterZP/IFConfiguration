@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1565c0</color>
+    <color name="colorPrimaryDark">#003c8f</color>
+    <color name="colorAccent">#5e92f3</color>
+
+    <color name="red">#da4d39</color>
+    <color name="yellow">#ffc113</color>
+    <color name="green">#009c58</color>
+    <color name="azure">#1166e8</color>
+
+    <array name="rainbow">
+        <item>@color/azure</item>
+        <item>@color/red</item>
+        <item>@color/yellow</item>
+        <item>@color/green</item>
+    </array>
+</resources>

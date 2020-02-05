@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".TheConfig.Config">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/nameOfSala"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SALA CCE 5"
+            android:textSize="17sp"
+            android:textColor="@android:color/black"
+            android:layout_gravity="center"
+            tools:ignore="HardcodedText" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorAccent">
+        </View>
+
+        <TextView
+            android:id="@+id/nameOfProf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="Prof°: IFMA"
+            android:textSize="15sp"
+            android:textColor="@android:color/black"
+            tools:ignore="HardcodedText" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorAccent">
+        </View>
+
+        <com.rey.material.widget.Button
+            android:id="@+id/soc_ar"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin="8dp"
+            android:background="@drawable/round"
+            android:text="Ar-condicionado"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textInputLayout"
+            app:layout_constraintVertical_bias="1.0"
+            app:rd_enable="true"
+            app:rd_rippleType="wave"
+            tools:ignore="HardcodedText" />
+
+        <com.rey.material.widget.Button
+            android:id="@+id/soc_recursos"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_margin="8dp"
+            android:background="@drawable/round2"
+            android:text="Recursos"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textInputLayout"
+            app:layout_constraintVertical_bias="1.0"
+            app:rd_enable="true"
+            app:rd_rippleType="wave"
+            tools:ignore="HardcodedText" />
+
+        <com.rey.material.widget.Button
+            android:id="@+id/soc_assistente"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_margin="8dp"
+            android:background="@drawable/round3"
+            android:text="Assistente de aluno"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textInputLayout"
+            app:layout_constraintVertical_bias="1.0"
+            app:rd_enable="true"
+            app:rd_rippleType="wave"
+            tools:ignore="HardcodedText" />
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

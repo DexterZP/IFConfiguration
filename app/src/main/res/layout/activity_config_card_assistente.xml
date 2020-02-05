@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".TheConfig.Config">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/round_card"
+        android:layout_margin="8dp"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/Card1"
+            android:focusable="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:shape="ring"
+            app:cardCornerRadius="4dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/nameOfSala"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sala 5"
+                    android:textSize="17sp"
+                    android:textColor="@color/red"
+                    android:gravity="center"
+                    tools:ignore="HardcodedText" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.3dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@android:color/black"/>
+
+                <TextView
+                    android:id="@+id/nameOfProf"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Professor(a): IFMA"
+                    android:maxLines="1"
+                    android:ellipsize="end"
+                    android:textSize="14sp"
+                    android:textColor="@android:color/black"
+                    tools:ignore="HardcodedText" />
+
+                <TextView
+                    android:id="@+id/nameOfAssistente"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Assistente de aluno: solicitado"
+                    android:textSize="14sp"
+                    android:textColor="@android:color/black"
+                    tools:ignore="HardcodedText" />
+
+                <com.rey.material.widget.Button
+                    android:id="@+id/soc_ligar"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/round"
+                    android:text="Concluir solicitação"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"
+                    android:textAllCaps="false"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textInputLayout"
+                    app:layout_constraintVertical_bias="1.0"
+                    app:rd_enable="true"
+                    app:rd_rippleType="wave"
+                    tools:ignore="HardcodedText" />
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>
